@@ -1,0 +1,56 @@
+nav {
+    .navbar-brand {
+        margin-right: 0px;
+        margin-left: 1rem;
+    }
+}
+
+.services-section {
+    #servicesCarousel {
+        .owl-dots {
+            float: left;
+        }
+        .owl-nav {
+            float: right;
+        }
+    }
+}
+
+.videos-section {
+    #videosCarousel {
+        .owl-dots {
+            float: left;
+        }
+        .owl-nav {
+            float: right;
+        }
+    }
+}
+
+.stories-section {
+    #storiesCarousel {
+        .owl-dots {
+            float: left;
+        }
+        .owl-nav {
+            float: right;
+        }
+    }
+}
+
+.news-section {
+    #newsCarousel {
+        .owl-dots {
+            float: left;
+        }
+        .owl-nav {
+            float: right;
+        }
+    }
+}
+.form-control {
+    direction: rtl;
+}
+.form-select {
+    background-position: left .75rem center;
+}
