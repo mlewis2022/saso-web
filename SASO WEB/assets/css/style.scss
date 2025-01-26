@@ -803,6 +803,42 @@ p {
             }
         }
     }
+    .more-info {
+        margin-bottom: 24px;
+        i.file {
+            background-image: url(../images/file.svg);
+            background-repeat: no-repeat;
+            height: 16px;
+            width: 16px;
+            display: block;
+        }
+        .text {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 8px;
+            &:last-child {
+                margin-bottom: 0px;
+            }
+            h4 {
+                display: flex;
+                align-items: center;
+                flex-direction: row-reverse;
+                gap: 10px;
+                font-size: 11px;
+                font-weight: 600;
+                color: $neutral-800;
+                margin-bottom: 0px;
+                margin-top: 0px;
+            }
+            p {
+               color: $neutral-800;
+               font-size: 10px;
+               font-weight: 300;
+               margin-bottom: 0px;
+            }
+        }
+    }
     #videosCarousel {
         margin-top: 32px;
         // padding: 0 15px;
