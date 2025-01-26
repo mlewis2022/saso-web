@@ -119,6 +119,9 @@
   html[dir="rtl"] .hero-slider #heroCarousel .item img {
     display: none;
   }
+  html[dir="rtl"] .video-icon {
+    margin-top: 2rem;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 834px) {

@@ -1225,9 +1225,9 @@ p {
     }
     .details {
         .title {
-            margin-top: 32px;
             margin-bottom: 32px;
-            &:first-child {
+            margin-top: 32px;
+            &:first-of-type {
                 margin-top: 0px;
             }
             h4 {
@@ -1301,6 +1301,75 @@ p {
             margin-bottom: 1rem;
             &:last-child {
                 margin-bottom: 0px;
+            }
+        }
+    }
+    .section-video-view {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    .section-video-img {
+        margin-top: 80px;
+        margin-bottom: 80px;
+        .video-img {
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .video-details {
+        h4 {
+            color: #1f2a37;
+            font-size: 1.125rem;
+            font-weight: 500;
+            margin-top: 1.5rem;
+            margin-bottom: 1.5rem;
+            line-height: 2;
+        }
+        .video-icon {
+            margin-bottom: 1.5rem;
+            background: #f3fcf6;
+            border-radius: 100px;
+            width: 48px;
+            height: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .more-info {
+            margin-bottom: 24px;
+            i.file {
+                background-image: url(../images/file.svg);
+                background-repeat: no-repeat;
+                height: 16px;
+                width: 16px;
+                display: block;
+            }
+            .text {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                margin-bottom: 8px;
+                &:last-child {
+                    margin-bottom: 0px;
+                }
+                h4 {
+                    display: flex;
+                    align-items: center;
+                    flex-direction: row-reverse;
+                    gap: 10px;
+                    font-size: 11px;
+                    font-weight: 600;
+                    color: $neutral-800;
+                    margin-bottom: 0px;
+                    margin-top: 0px;
+                }
+                p {
+                   color: $neutral-800;
+                   font-size: 10px;
+                   font-weight: 300;
+                   margin-bottom: 0px;
+                }
             }
         }
     }
