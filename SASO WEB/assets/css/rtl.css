@@ -1,4 +1,8 @@
-nav .navbar-brand {
+body {
+  direction: rtl;
+}
+
+.custom-navbar .navbar-brand {
   margin-right: 0px;
   margin-left: 1rem;
 }
@@ -41,4 +45,33 @@ nav .navbar-brand {
 
 .form-select {
   background-position: left .75rem center;
+}
+
+.owl-nav .owl-next, .owl-nav .owl-prev {
+  transform: scaleX(1) !important;
+}
+
+footer .content .social-link ul li {
+  float: right;
+  margin-left: 8px;
+}
+
+footer .content .tooles-link ul li {
+  float: right;
+  margin-left: 8px;
+}
+
+footer .content .more-bottom-links ul li {
+  float: right;
+  margin-left: 16px;
+}
+
+footer .content .logo-bottom-links ul li {
+  list-style: none;
+  float: right;
+  margin-left: 16px;
+}
+
+footer .content .logo-bottom-links ul li:last-child {
+  margin-left: 0px;
 }

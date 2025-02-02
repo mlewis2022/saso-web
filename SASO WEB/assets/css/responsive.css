@@ -75,6 +75,116 @@
   font-style: 700;
 }
 
+@media (max-width: 630px) {
+  html[dir="ltr"] .nav-header .wcag {
+    padding: 16px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 767px) {
+  html[dir="ltr"] .about-section, html[dir="ltr"] .services-section,
+  html[dir="ltr"] .videos-section, html[dir="ltr"] .stories-section,
+  html[dir="ltr"] .news-section, html[dir="ltr"] .partner-section,
+  html[dir="ltr"] .cta-section, html[dir="ltr"] .section-grid,
+  html[dir="ltr"] .details-section, html[dir="ltr"] .hero-subpages-details,
+  html[dir="ltr"] .faq-section, html[dir="ltr"] .contact-from-section {
+    padding: 40px 16px;
+  }
+  html[dir="ltr"] iframe {
+    height: 350px;
+  }
+  html[dir="ltr"] footer {
+    padding: 0px 16px;
+  }
+  html[dir="ltr"] .hero-subpages .content {
+    padding: 40px 28px;
+  }
+  html[dir="ltr"] .hero-slider {
+    padding: 0px 16px;
+  }
+  html[dir="ltr"] .hero-slider #heroCarousel .item .carousel-caption {
+    padding: 80px 0px;
+  }
+  html[dir="ltr"] .about-stats .stats-box {
+    margin-bottom: 24px;
+  }
+  html[dir="ltr"] .details-section .service-description .description {
+    display: block;
+  }
+  html[dir="ltr"] .details-section .service-description .description .plan-card {
+    margin-top: 24px;
+  }
+  html[dir="ltr"] .about-section .content img {
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 64px;
+  }
+  html[dir="ltr"] .hero-slider #heroCarousel .item .carousel-caption {
+    width: 90%;
+  }
+  html[dir="ltr"] .hero-slider #heroCarousel .item img {
+    display: none;
+  }
+  html[dir="ltr"] .video-icon {
+    margin-top: 2rem;
+  }
+  html[dir="ltr"] .cta-section .cta-content p {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 834px) {
+  html[dir="ltr"] .about-section, html[dir="ltr"] .services-section,
+  html[dir="ltr"] .videos-section, html[dir="ltr"] .stories-section,
+  html[dir="ltr"] .news-section, html[dir="ltr"] .partner-section,
+  html[dir="ltr"] .cta-section, html[dir="ltr"] .section-grid {
+    padding: 40px 16px;
+  }
+}
+
+@media (max-width: 992px) {
+  html[dir="ltr"] .form-card, html[dir="ltr"] .contact-from-section .contact-information {
+    margin: 0;
+  }
+  html[dir="ltr"] .stories-section .cards .stories-card,
+  html[dir="ltr"] .news-section .cards .news-card {
+    margin-bottom: 24px;
+  }
+  html[dir="ltr"] .hero-slider #heroCarousel .item img {
+    display: none;
+  }
+  html[dir="ltr"] .hero-subpages .page-image, html[dir="ltr"] .hero-subpages .content {
+    width: 100%;
+  }
+  html[dir="ltr"] .hero-subpages .page-image img {
+    width: 100%;
+    height: 250px;
+  }
+  html[dir="ltr"] .about-section .content .image-section img {
+    width: 100%;
+    margin-bottom: 32px;
+  }
+  html[dir="ltr"] .about-section.bg-neutral-50 .content .image-section img {
+    margin-top: 32px;
+    margin-bottom: 0px;
+  }
+  html[dir="ltr"] .contact-from-section .contact-img {
+    margin-top: 32px;
+  }
+}
+
+@media (max-width: 630px) {
+  html[dir="rtl"] .nav-header .wcag {
+    padding: 16px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+  }
+}
+
 @media (max-width: 767px) {
   html[dir="rtl"] .about-section, html[dir="rtl"] .services-section,
   html[dir="rtl"] .videos-section, html[dir="rtl"] .stories-section,
@@ -121,6 +231,9 @@
   }
   html[dir="rtl"] .video-icon {
     margin-top: 2rem;
+  }
+  html[dir="rtl"] .cta-section .cta-content p {
+    margin-bottom: 2rem;
   }
 }
 

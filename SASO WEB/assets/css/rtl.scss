@@ -1,4 +1,7 @@
-nav {
+body {
+    direction: rtl;
+}
+.custom-navbar {
     .navbar-brand {
         margin-right: 0px;
         margin-left: 1rem;
@@ -53,4 +56,49 @@ nav {
 }
 .form-select {
     background-position: left .75rem center;
+}
+
+.owl-nav .owl-next, .owl-nav .owl-prev {
+    transform: scaleX(1) !important;
+}
+
+footer {
+    .content {
+        .social-link {
+            ul {
+                li {
+                    float: right;
+                    margin-left: 8px;
+                }
+            }
+        }
+        .tooles-link {
+            ul {
+                li {
+                    float: right;
+                    margin-left: 8px;
+                }
+            }
+        }
+        .more-bottom-links {
+            ul {
+                li {
+                    float: right;
+                    margin-left: 16px;
+                }
+            }
+        }
+        .logo-bottom-links {
+            ul {
+                li {
+                    list-style: none;
+                    float: right;
+                    margin-left: 16px;
+                    &:last-child {
+                        margin-left: 0px;
+                    }
+                }
+            }
+        }
+    }
 }
