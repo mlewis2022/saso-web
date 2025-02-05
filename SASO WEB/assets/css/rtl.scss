@@ -102,3 +102,19 @@ footer {
         }
     }
 }
+
+nav .pagination .page-item .Next i.next-io {
+    transform: scaleX(-1);
+    display: block;
+    background-image: url(../images/next.svg);
+    height: 20px;
+    width: 20px;
+}
+
+nav .pagination .page-item .Previous i.previous-io {
+    transform: scaleX(-1);
+    display: block;
+    background-image: url(../images/Previous.svg);
+    height: 20px;
+    width: 20px;
+}
