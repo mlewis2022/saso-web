@@ -440,7 +440,13 @@ p {
         .icons {
             display: flex;
             gap: 6px;
-    
+            a.active {
+                background-color: $primary;
+                border-radius: 4px;
+                img {
+                    filter: invert(1) brightness(2);
+                }
+            }
             i {
                 font-size: 18px;
                 color: #333;
@@ -1784,9 +1790,13 @@ footer {
                             border: 1px solid #fff;
                         }
                         img {
-                            height: 20px;
-                            width: 20px;
+                            height: 32px;
+                            width: 32px;
+                            filter: invert(1) brightness(2);
                         }
+                    }
+                    a.active {
+                        background-color: #171717;
                     }
                 }
             }
@@ -1866,4 +1876,13 @@ footer {
             }
         }
     }
+}
+
+.bw-mode {
+    filter: grayscale(1);
+    background-color: #fff !important;
+    color: #000 !important;
+}
+.bw-mode img {
+    filter: grayscale(1);
 }

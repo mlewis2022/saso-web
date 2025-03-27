@@ -91,3 +91,16 @@ nav .pagination .page-item .Previous i.previous-io {
   height: 20px;
   width: 20px;
 }
+
+.accordion .accordion-button::after {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  margin-right: auto;
+  margin-left: inherit;
+  content: "";
+  background-image: url(../images/arrow-down.svg);
+  background-repeat: no-repeat;
+  background-size: 20px;
+  transition: transform .2s ease-in-out;
+}
