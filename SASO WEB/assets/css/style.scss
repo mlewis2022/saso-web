@@ -15,8 +15,13 @@ body {
     height: 100%;
 }
 * {
+    font-family: "IBM", sans-serif;
     text-decoration: none !important;
     margin-bottom: 0px;
+}
+
+span, h1, h2, h3, h4, h5, h6, p, a, li, label, button {
+    font-family: "IBM", sans-serif;
 }
 
 .navbar-toggler {
