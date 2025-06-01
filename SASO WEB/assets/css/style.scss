@@ -1994,3 +1994,50 @@ footer {
         width: 40px;
       }
   }
+.error-message {
+    margin: 5rem auto;
+    .error-content {
+        text-align: center;
+        .img-text {
+            .error-image {
+                img {
+                    width: 100%;
+                    max-width: 450px;
+                }
+            }
+            @media screen and (max-width: 768px) {
+                .error-image {
+                    img {
+                        width: 100%;
+                        max-width: 390px;
+                    }
+                }
+                
+            }
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 4rem;
+          .content-text {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+            h5 {
+                font-size: 1.5rem;
+                font-weight: 600;
+                color: $neutral-800;
+            }
+            p {
+                font-size: 1rem;
+                font-weight: 300;
+                color: $neutral-800;
+            }
+        }
+        
+    }
+    .cta {
+        margin-top: 2rem;
+    }
+    }
+}
